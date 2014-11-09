@@ -1,4 +1,4 @@
-Version = 10
+Version = 13
 
 Booleans = {'caretLineVisible': True, 'preferFixed': True, 'useSelFore': False}
 
@@ -12,17 +12,18 @@ CommonStyles = {'attribute name': {'fore': 7374800},
  'default_fixed': {'back': 16316664,
                    'bold': 0,
                    'eolfilled': 0,
-                   'face': 'MonacoB2',
+                   'face': 'Menlo',
                    'fore': 5460819,
                    'hotspot': 0,
                    'italic': 0,
-                   'size': 11,
+                   'lineSpacing': 4,
+                   'size': 14,
                    'useFixed': 1},
  'default_proportional': {'back': 3878955,
                           'bold': 0,
                           'eolfilled': 0,
                           'face': 'DejaVu Sans Mono',
-                          'fore': 16118255,
+                          'fore': 9847835,
                           'hotspot': 0,
                           'italic': 0,
                           'size': 11,
@@ -48,9 +49,12 @@ CommonStyles = {'attribute name': {'fore': 7374800},
  'stringeol': {'back': 8287077, 'eolfilled': True},
  'strings': {'fore': 35313},
  'tags': {'fore': 6971839},
- 'variables': {'fore': 6971839}}
+ 'variables': {'fore': 11360135}}
 
-LanguageStyles = {'CSS': {'classes': {'fore': 12414788},
+LanguageStyles = {'Apache': {'directives': {'fore': 11360135},
+            'ip_addresses': {'fore': 11772303},
+            'parameters': {'fore': 12414788}},
+ 'CSS': {'classes': {'fore': 12414788},
          'ids': {'fore': 11374260},
          'numbers': {'fore': 36211},
          'strings': {'fore': 35313},
@@ -91,13 +95,13 @@ LanguageStyles = {'CSS': {'classes': {'fore': 12414788},
 MiscLanguageSettings = {}
 
 Colors = {'bookmarkColor': 6708047,
- 'callingLineColor': 4603188,
+ 'callingLineColor': 15724523,
  'caretFore': 12234151,
  'caretLineBack': 15724523,
  'changeMarginDeleted': 6781355,
  'changeMarginInserted': 9223843,
  'changeMarginReplaced': 11772303,
- 'currentLineColor': 4603188,
+ 'currentLineColor': 15724523,
  'edgeColor': 4603188,
  'foldMarginColor': 16316664,
  'selBack': 14933717,
