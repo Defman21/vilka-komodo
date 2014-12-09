@@ -1,5 +1,9 @@
-Vilka color scheme for Komodo Edit
+Description
 =================================
-It's just a port of Brackets default color scheme, but I don't call this "Brackets color scheme for Komodo" and call it "Vilka" (only Russian's can understand my joke with name)
+It's a default color scheme from Brackets editor by Adobe.
+It works on any Komodo release.
 
-So I hope you enjoy my port :)
+How to install
+=============
+Easy method: Drag'n'drop `Brackets.ksf` on the Komodo window.
+Hard method: Find your Komodo profile folder and place `Brackets.ksf` to `schemes/` folder.
